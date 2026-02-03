@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Simple Quiz App</title>
 </head>
 <body>
-    <div>Simple quiz app</div>    
+    <div class="container">
+        <div class="card">
+            <h1>Simple Quiz App</h1>
+            <div class="quiz">
+                <h2 id="question">Question will here</h2>
+                <div id="option"></div>
+                <button id="next-btn">Next</button>
+            </div>
+            <p class="score"></p>
+        </div>
+    </div> 
+    <script type="module" src="data.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
